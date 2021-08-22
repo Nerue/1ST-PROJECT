@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient( to left ,black ,white);
+    
+    scroll-behavior: smooth;
+    padding-top: 66px; 
+}
+.navbar {
+    border-bottom: thin black solid;
+    background-image: linear-gradient( to left ,black ,white);;
+}
+.navbar .btn{
+    color: white;
+    border-color:white;
+    background-color: black;
+}
+.navbar .btn:hover{
+    color: black;
+    border-color: black;
+    background-color: white;
+
+}
+.navbar-brand img {
+      width: 40px;}
+/* end navbar */
+.carousel {
+     margin: 0px 33px;
+     
+     scroll-behavior: smooth; 
+ }
+/* end carousel  */
+   .hb{
+     width: 40%;
+     height: 5px;
+     background-image: linear-gradient(to right ,black 20%,white 100%,black );
+     margin: auto;
+ }
+ #aboutUs .container .row img {
+     width: 100%;
+ }
+ #aboutUs .header h1 ,
+ #aboutUs .container .row .content  p 
+ ,#aboutUs .container .row .content  h1 ,.header h1
+  {
+     color: #000000;
+ }
+ /* end about us  */
+.nav-tabs {
+     font-size: 25px;
+     width: 70%;
+     margin: auto;
+     border: white 1px solid;
+     border-radius: 20px;
+ } 
+ 
+ .nav-tabs .nav-link {
+     color: white;
+ }
+ .nav-tabs .nav-link.active {
+     border-radius: 20px;
+     color: black;
+ }
+.tab-content h1 {
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+}
+/* end champ  */
+footer{
+    background-color: black;
+}
+
+footer h1  {
+    color: white;
+    font-size: 23px;
+}
+footer p{
+    color: white;
+    font-size: 14px;
+}
+footer .hb {
+    width: 100%;
+    background-image: linear-gradient(white,white);
+    height: 2px;
+}
+i{
+    font-size: 25px;
+    color: white;
+}
+
+
+@media (max-width : 991px){
+    body{background-image:  linear-gradient( to right ,white,black 130% ,white);;
+        height: 4000px;
+    }
+    .navbar {
+        background-image: linear-gradient( to right ,white,black 130% ,white);;
+    }
+    .carousel {
+        margin: 0px 20px 0px  ;
+    }
+.nav-tabs{font-size: 20px;
+    width: 90%;
+
+}
+}
+@media (max-width : 377px) {
+    .nav .nav-item {
+       width: 300px !important;
+    }
+}
